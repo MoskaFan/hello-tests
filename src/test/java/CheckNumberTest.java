@@ -8,7 +8,7 @@ class CheckNumberTest {
     void check() {
 
         int value = 20;
-        boolean expectedResult = true;
+        boolean expectedResult = false;
         boolean result = CheckNumber.check(value);
         assertEquals(expectedResult,result);
     }

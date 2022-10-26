@@ -11,7 +11,7 @@ class SumTest {
     void sum() {
         int a = 1;
         int b = 1;
-        int expectedResult = 3;
+        int expectedResult = 2;
         int result = Sum.sum(a,b);
         assertEquals(expectedResult,result);
     }
