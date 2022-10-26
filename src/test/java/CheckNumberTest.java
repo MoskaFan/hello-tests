@@ -11,5 +11,6 @@ class CheckNumberTest {
         boolean expectedResult = false;
         boolean result = CheckNumber.check(value);
         assertEquals(expectedResult,result);
+
     }
 }
